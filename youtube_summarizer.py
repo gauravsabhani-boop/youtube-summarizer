@@ -219,5 +219,5 @@ Format: 3-4 paragraphs maximum. Be direct and insightful.
 if __name__ == "__main__":
     summarizer = YouTubeSummarizer()
     summarizer.run_summary()
-```
+
 
