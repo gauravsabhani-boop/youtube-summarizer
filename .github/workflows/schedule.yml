@@ -35,7 +35,7 @@ jobs:
       
       - name: Upload logs (if needed)
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: execution-logs
           retention-days: 7
