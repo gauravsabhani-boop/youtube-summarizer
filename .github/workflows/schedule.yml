@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       
@@ -32,11 +32,3 @@ jobs:
           GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
         run: python youtube_summarizer.py
-      
-      - name: Upload logs (if needed)
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: execution-logs
-          retention-days: 7
-
