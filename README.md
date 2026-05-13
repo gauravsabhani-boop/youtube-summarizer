@@ -1,7 +1,7 @@
 # 🎬 YouTube AI Summarizer - Complete Setup Guide
 
 ## 📋 Table of Contents
-1. [What You'll Get](#what-youll-get)
+1. [What You'll Get](#what-youll-get)  
 2. [Prerequisites](#prerequisites)
 3. [Phase 1: Get Your API Keys](#phase-1-get-your-api-keys)
 4. [Phase 2: Create GitHub Account & Repository](#phase-2-create-github-account--repository)
